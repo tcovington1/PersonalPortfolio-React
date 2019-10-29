@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => (
 
-  <h1>Projects Page</h1>
+  <h1 style={{paddingTop: '5em'}}>Projects Page</h1>
 
   )
 
