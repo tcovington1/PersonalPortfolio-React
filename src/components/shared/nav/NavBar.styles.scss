@@ -71,45 +71,9 @@ $primaryColor: #eeccff;
 
 
 // /* mobile */
-@media (max-width: 769px) {
-  .nav-cont {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 4em;
-    background-color: gray;
-  
-    .nav-logo-cont {
-      width: 10em;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      border: red 1px solid;
-      
-    }
-    
-    .logo-image {
-      width: 10em;
-      fl
-    }
-    
-    .grouped-nav-items {
-      display: flex;
-      justify-content: space-evenly;
-      // border: red 1px solid;
-      
-    }
-    
-    .nav-items-col {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      // border: green 1px solid;
-      width: 33%;
-    }
-
-}
+// @media (max-width: 769px) {
+ 
+// }
 // /* desktop */
 // @media (min-width: 769px) {   
   

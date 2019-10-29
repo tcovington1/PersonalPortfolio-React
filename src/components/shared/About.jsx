@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => (
 
-  <h1>About</h1>
+  <h1 style={{paddingTop: '5em'}}>About</h1>
 
   )
 
