@@ -1,31 +1,26 @@
-import React from 'react';
-import styled from 'styled-components';
-import { useTransition, animated } from 'react-spring';
-
+import React, { useState } from 'react';
+// import styled from 'styled-components';
+import Fade from 'react-reveal';
+import '../../../styles/Global.scss';
 
 const Hero = () => {
-
-  const transition = useTransition({
-    from: { opacity: 0, marginLeft: -100, marginRight: 100 },
-    to: { opacity: 1, marginLeft: 0, marginRight: 0 }
-  });
-
+  
   return(
-  <HeroContainer >
-    <HeroTitle style={{transition}}>Hey There!</HeroTitle>
-  </HeroContainer>
+    
+    <div className='hero-cont' >
+    <div className='hero-img'>
+      <div >
+         <div className='center-col'>
+            <Fade duration={2000}>
+              <h1>Taylor Covington</h1>
+            </Fade>
+      </div>
+    </div>
+  </div>
+  </div>
+  
   )
 }
 
 export default Hero;
 
-const HeroContainer = styled.div`
-    margin-top: 5em;
-    height: 100vh;
-    width: 100%;
-    border: red 1px red;
-`;
-
-const HeroTitle = styled(animated.h1)`
-
-`;

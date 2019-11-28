@@ -1,0 +1,25 @@
+.language-cont {
+  height: 30vh;
+  width: 100%;
+  border: green 1px solid;
+}
+
+.skills-head-mob {
+  text-align: center;
+}
+
+// ------- SKILL CARD MOB --------------
+
+.skills-mob{
+  display: flex;
+  // width: 50%;
+  height: 80%;
+  border: 2px red solid;
+  flex-wrap: wrap;
+}
+
+.skill-wrapper-mob {
+  width: 50%;
+  border: 2px blue solid;
+  text-align: center;
+}

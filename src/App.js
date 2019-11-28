@@ -3,15 +3,24 @@ import { Route, Switch, } from 'react-router-dom';
 import Home from './components/shared/home/Home';
 import About from './components/shared/About';
 import Projects from './components/shared/Projects';
+import Contact from './components/shared/Contact';
 import NoMatch from './components/shared/NoMatch';
 import NavBar from './components/shared/nav/NavBar';
 import GlobalStyle from './styles/Global';
+
+// -------- MOBILE IMPORTS -------------
+
+import NavBarMob from './mobile/navMob/NavBarMob';
+import HomeMob from './mobile/home/HomeMob';
 
 import './App.css';
 
 class App extends Component {
   state = {
-    navbarOpen: false
+    navbarOpen: false,
+    pageLoaded: false, 
+    width: window.innerWidth, 
+    menuLoaded: false
   }
 
   handleNavbar = () => {
@@ -19,23 +28,57 @@ class App extends Component {
     this.setState({ navbarOpen: !this.state.navbarOpen });
   }
 
+  componentDidMount = () => {
+    window.addEventListener("resize", this.handleWindowSizeChange);
+  };
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleWindowSizeChange);
+  };
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  }
+
   render() {
-   
-  return (
-    <>
-    <NavBar 
-      navbarState={this.state.navbarOpen} 
-      handleNavbar={this.handleNavbar}
-    />
-    <GlobalStyle />
-     <Switch>
-       <Route exact path="/" component={Home} />
-       <Route path="/about" component={About} />
-       <Route path="/projects" component={Projects} />
-       <Route component={NoMatch} />
-     </Switch>
-    </>
-  )
+    const { width, menuLoaded } = this.state
+    const isMobile = width <= 800;
+
+
+    if (isMobile) {
+        return (
+      <>
+      <NavBarMob
+        navbarState={this.state.navbarOpen} 
+        handleNavbar={this.handleNavbar}
+      />
+      <GlobalStyle />
+      <Switch>
+        <Route exact path="/" component={HomeMob} />
+        {/* <Route path="/about" component={AboutMob} /> */}
+        {/* <Route path="/projects" component={ProjectsMob} /> */}
+        {/* <Route path="/contact" component={ContactMob} /> */}
+        {/* <Route component={NoMatch} /> */}
+      </Switch>
+      </>
+    )} else {
+      return (
+        <>
+        <NavBar 
+          navbarState={this.state.navbarOpen} 
+          handleNavbar={this.handleNavbar}
+        />
+        <GlobalStyle />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+          <Route component={NoMatch} />
+        </Switch>
+        </>
+      )
+    }
 }
 }
 
