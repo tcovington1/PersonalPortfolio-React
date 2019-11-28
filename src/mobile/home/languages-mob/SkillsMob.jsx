@@ -13,6 +13,7 @@ const MySkillsMob = () => {
     <SkillCard 
       key={skill.id}
       name={skill.language}
+      icon={skill.icon}
     
     />
   );

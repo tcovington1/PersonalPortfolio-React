@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const BurgerMenu = (props) => {
   return(
-    <Wrapper onClick={props.handleNabvar}>
+    <Wrapper onClick={props.handleNavbar}>
       <div className={ props.navbarState ? 'open' : ''}>
         <span>&nbsp;</span>
         <span>&nbsp;</span>
