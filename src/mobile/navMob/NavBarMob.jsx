@@ -4,8 +4,8 @@ import { useSpring, animated, config } from "react-spring";
 import {Link} from 'react-router-dom';
 
 import Brand from "../../components/shared/nav/Brand";
-import BurgerMenu from "./BurgerMenu";
-import CollapseMenu from "./CollapseMenu";
+import BurgerMenuMob from "./BurgerMenuMob";
+import CollapseMenuMob from "./CollapseMenuMob";
 
 const Navbar = (props) => {
   const barAnimation = useSpring({
@@ -33,14 +33,14 @@ const Navbar = (props) => {
             <Link className='nav-links' to="/contact">Contact</Link>
           </NavLinks>
           <BurgerWrapper>
-            <BurgerMenu
+            <BurgerMenuMob
               navbarState={props.navbarState} 
               handleNavbar={props.handleNavbar}
             />
           </BurgerWrapper>
         </FlexContainer>
       </NavBar>
-      <CollapseMenu 
+      <CollapseMenuMob 
         navbarState={props.navbarState} 
         handleNavbar={props.handleNavbar}
       />

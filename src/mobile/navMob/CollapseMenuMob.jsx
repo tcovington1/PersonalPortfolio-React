@@ -3,17 +3,12 @@ import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 import Link from 'react-router-dom';
 
-const CollapseMenu = (props) => {
+const CollapseMenuMob = (props) => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
 
   if (props.navbarState === true) {
     return(
-      <CollapseWrapper style={{
-        transform: open.interpolate({
-          range: [0, 0.2, 0.3, 1],
-          output: [0, -20, 0, -200],
-        }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`),
-      }}
+      <CollapseWrapper style={{zIndex: '2', padding: '3em', border: '1px solid red'}}
       >
         <NavLinks>
         <li><a href="/" onClick={props.handleNavbar}>Home</a></li>
@@ -27,14 +22,23 @@ const CollapseMenu = (props) => {
   return null;
 }
 
-export default CollapseMenu;
+export default CollapseMenuMob;
+
+// style={{
+//   transform: open.interpolate({
+//     range: [0, 0.2, 0.3, 1],
+//     output: [0, -20, 0, -200],
+//   }).interpolate(openValue => `translate3d(0, ${openValue}px, 0`),
+// }}
 
 const CollapseWrapper = styled(animated.div)`
-  background: #2d3436;
   position: fixed;
   top: 4.5rem;
   left: 0;
   right: 0;
+  // background: #2d3;
+  background: #2d3436;
+
 `;
 
 const NavLinks = styled.ul`

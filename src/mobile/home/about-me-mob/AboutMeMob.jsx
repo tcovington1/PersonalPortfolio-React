@@ -10,6 +10,9 @@ class AboutMeMob extends Component {
     return(
       <>
       <div className="about-wrapper-mob">
+        <div className="about-title">
+            <h2>About Me</h2>
+        </div>
         <div className="about-me-pic">
           <AboutMePic />
         </div>

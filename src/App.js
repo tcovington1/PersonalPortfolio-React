@@ -24,7 +24,6 @@ class App extends Component {
   }
 
   handleNavbar = () => {
-    debugger
     this.setState({ navbarOpen: !this.state.navbarOpen });
   }
 
