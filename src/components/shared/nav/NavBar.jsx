@@ -3,9 +3,7 @@ import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import {Link} from 'react-router-dom';
 
-import Brand from "./Brand";
-import BurgerMenu from "./BurgerMenu";
-import CollapseMenu from "./CollapseMenu";
+import Brand from './Brand';
 
 const Navbar = (props) => {
   const barAnimation = useSpring({
@@ -26,23 +24,15 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand to='/'/>
           <NavLinks style={linkAnimation}>
-            <Link to="/">Home</Link>
-            <Link to="/projects">Portfolio</Link>
-            <Link to="/about">About</Link>
-            <a href="/">Contact</a>
+            <Link className='nav-links'to="/">Top</Link>
+            <Link className='nav-links' to="/about">About</Link>
+            <Link className='nav-links' to="/projects">Portfolio</Link>
+            <Link className='nav-links' to="/resume">Resume</Link>
+            <Link className='nav-links' to="/contact">Contact</Link>
           </NavLinks>
-          <BurgerWrapper>
-            <BurgerMenu
-              navbarState={props.navbarState} 
-              handleNavbar={props.handleNavbar}
-            />
-          </BurgerWrapper>
         </FlexContainer>
       </NavBar>
-      <CollapseMenu 
-        navbarState={props.navbarState} 
-        handleNavbar={props.handleNavbar}
-      />
+      
    </>
   )
 }
@@ -75,7 +65,7 @@ const NavLinks = styled(animated.ul)`
   list-style-type: none;
   margin: auto 0;
 
-  & a {
+  & .nav-links {
     color: #374140;
     text-transform: uppercase;
     font-weight: 600;
@@ -100,10 +90,3 @@ const NavLinks = styled(animated.ul)`
   }
 `;
 
-const BurgerWrapper = styled.div`
-  margin: auto 0;
-
-  @media (min-width: 769px) {
-    display: none;
-  }
-`;
