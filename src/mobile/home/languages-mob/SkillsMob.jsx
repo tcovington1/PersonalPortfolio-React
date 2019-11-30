@@ -20,7 +20,7 @@ const MySkillsMob = () => {
  
     return(
   <>
-    <div className='language-cont'>
+    <div className='language-cont-mob'>
       <div className="skills-head-mob">
         <h1>My Skills</h1>
       </div>

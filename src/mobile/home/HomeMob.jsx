@@ -6,16 +6,20 @@ import MySkillsMob from './languages-mob/SkillsMob';
 import ProjectsMob from './projects-mob/ProjectsMob';
 import FooterMob from '../footer-mob/FooterMob';
 
+import {Fade} from 'react-reveal';
+
 const HomeMob = () => {
 
   return(
     <>
     
       <HomeHeroMob />
-      <AboutMeMob />
-      <MySkillsMob />
-      <ProjectsMob />
-      <FooterMob />
+      <Fade duration={2000}>
+        <AboutMeMob />
+        <MySkillsMob />
+        <ProjectsMob />
+        <FooterMob />
+      </Fade>
     </>
   )
 };

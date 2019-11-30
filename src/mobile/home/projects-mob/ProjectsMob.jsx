@@ -15,8 +15,8 @@ const ProjectsMob = () => {
 
   return(
   <>
-  <div className="port-cont">
-    <div className="header">
+  <div className="port-cont-mob">
+    <div className="proj-header-mob">
       <h2>Projects</h2>
     </div>
     <div className="projects">

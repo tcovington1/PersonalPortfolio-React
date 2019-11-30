@@ -10,8 +10,8 @@ const Hero = () => {
     <div className='hero-img-mob'> 
       <div className='center-col-mob'>
          <Fade duration={2000}>
-           <h1>Taylor Covington</h1>
-          <h6>Full-Stack Developer Building Solutions</h6>
+           <h1>Taylor <br></br> Covington</h1>
+          <h6>A Full-Stack Developer</h6>
         </Fade>
     </div>
   </div>

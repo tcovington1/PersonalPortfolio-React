@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import Logo from '../../../assets/tcdevstudio2.png'
+import Logo from '../../../assets/lion-logo-transp.png'
 
 const Brand = () => {
 
@@ -12,6 +12,7 @@ const Brand = () => {
 export default Brand;
 
 const Image= styled.img`
-  height: 85%;
+  height: 100%;
   margin: auto 0;
+  // border: 1px solid red;
 `;
