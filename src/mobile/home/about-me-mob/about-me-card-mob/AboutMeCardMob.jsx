@@ -1,6 +1,7 @@
 import React from 'react';
+import './AboutMeCardMob.scss';
 
-const AboutMeCard = () => (
+const AboutMeCardMob = () => (
   <>
           
           <div className="words-mob">
@@ -11,4 +12,4 @@ const AboutMeCard = () => (
     </>
 )
 
-export default AboutMeCard;
+export default AboutMeCardMob;

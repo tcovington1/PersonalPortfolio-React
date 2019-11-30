@@ -6,7 +6,7 @@ const skills = [
   {
     id: 1, 
     language: "HTML/CSS",
-    icon: "google",
+    icon: "html5",
     
   },
   {
@@ -19,7 +19,7 @@ const skills = [
   {
     id: 3, 
     language: "React",
-    icon: "twitter",
+    icon: "react",
 
 
   },

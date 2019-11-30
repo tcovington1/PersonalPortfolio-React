@@ -44,7 +44,7 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #eefdfa;
+  background: #e7fffd;
   z-index: 1;
   font-size: 1.4rem;
   
@@ -55,7 +55,7 @@ const FlexContainer = styled.div`
   max-width: 120rem;
   display: flex;
   margin: auto;
-  padding: 0 2rem;;
+  padding: 0rem 2rem 0rem 0rem;
   justify-content: space-between;
   height: 5rem;
 `;

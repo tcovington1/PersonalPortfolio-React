@@ -8,7 +8,7 @@ const CollapseMenuMob = (props) => {
 
   if (props.navbarState === true) {
     return(
-      <CollapseWrapper style={{zIndex: '2', padding: '3em', border: '1px solid red'}}
+      <CollapseWrapper style={{zIndex: '2'}}
       >
         <NavLinks>
         <li><a href="/" onClick={props.handleNavbar}>Home</a></li>
@@ -33,7 +33,7 @@ export default CollapseMenuMob;
 
 const CollapseWrapper = styled(animated.div)`
   position: fixed;
-  top: 4.5rem;
+  top: 6rem;
   left: 0;
   right: 0;
   // background: #2d3;
@@ -58,8 +58,8 @@ const NavLinks = styled.ul`
     cursor: pointer;
 
     &:hover {
-      color: #fdcb6e;
-      border-bottom: 1px solid #fdcb6e;
+      color: #009688;
+      border-bottom: 1px solid #009688;
     }
   }
 `;

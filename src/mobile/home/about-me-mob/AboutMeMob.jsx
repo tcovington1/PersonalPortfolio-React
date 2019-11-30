@@ -2,7 +2,7 @@ import React,  { Component } from 'react';
 
 import './AboutMeMob.scss';
 import AboutMePic from './AboutMePic';
-import AboutMeCard from './about-me-card-mob/AboutMeCardMob';
+import AboutMeCardMob from './about-me-card-mob/AboutMeCardMob';
 
 class AboutMeMob extends Component {
 
@@ -10,14 +10,14 @@ class AboutMeMob extends Component {
     return(
       <>
       <div className="about-wrapper-mob">
-        <div className="about-title">
-            <h2>About Me</h2>
+        <div className="about-title-mob">
+            <h1>About Me</h1>
         </div>
         <div className="about-me-pic">
           <AboutMePic />
         </div>
         <div className="about-words-wrapper">
-          <AboutMeCard />
+          <AboutMeCardMob />
         </div>
       </div>
       </>

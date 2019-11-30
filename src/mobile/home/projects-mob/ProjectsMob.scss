@@ -1,7 +1,26 @@
+// ---------- Projects Mob -----------
+
+.port-cont-mob {
+  height: 50em;
+  text-align: center;
+  padding: 2em;
+}
+
+.proj-header-mob h2 {
+  font-size: 4em;
+  padding: 1em;
+  color: black;
+  
+}
+
 // --------- Project Mob ----------------
 
 .project-image-mob {
   width: 80%;
   height: 20vh;
   cursor: pointer;
+}
+
+.project-cont-mob {
+  height: 10em;
 }

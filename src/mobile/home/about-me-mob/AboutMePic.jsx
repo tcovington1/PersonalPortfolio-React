@@ -4,7 +4,7 @@ import './AboutMePic.scss';
 
 const AboutMePic = () => (
   <>
-    <div >
+    <div className='img-cropper-mob'>
       <img src={MyPic} className="about-pic-mob"/>
     </div>
   </>

@@ -12,8 +12,11 @@ import GlobalStyle from './styles/Global';
 
 import NavBarMob from './mobile/navMob/NavBarMob';
 import HomeMob from './mobile/home/HomeMob';
-
 import './App.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+library.add(fab);
+
 
 class App extends Component {
   state = {
