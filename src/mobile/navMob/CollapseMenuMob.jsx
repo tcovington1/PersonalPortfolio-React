@@ -14,6 +14,7 @@ const CollapseMenuMob = (props) => {
         <li><a href="/" onClick={props.handleNavbar}>Home</a></li>
           <li><a href="/portfolio" onClick={props.handleNavbar}>Portfolio</a></li>
           <li><a href="/about" onClick={props.handleNavbar}>About</a></li>
+          <li><a href="/resume" onClick={props.handleNavbar}>Resume</a></li>
           <li><a href="/contact" onClick={props.handleNavbar}>Contact</a></li>
         </NavLinks>
       </CollapseWrapper>

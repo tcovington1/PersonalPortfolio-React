@@ -2,12 +2,12 @@ const socialLinks = [
   {
     id: 1,
     icon: "twitter",
-    // link:
+    link: "https://twitter.com/codewithtaylor",
   },
   {
     id: 2,
     icon: "github",
-    // link: 
+    link: "https://github.com/tcovington1",
   },
 
 ]

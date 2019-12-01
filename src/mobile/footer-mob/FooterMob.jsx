@@ -2,18 +2,27 @@ import React from 'react';
 import socialLinks from './SocialData';
 
 import SocialLink from './SocialLink';
+import './FooterMob.scss';
 
 const FooterMob = () => {
 
   const mapSocial = (social) => (
-    <SocialLink icon={social.icon}/>
+    <SocialLink 
+    icon={social.icon}
+    link={social.link}
+    />
   )
 
   return(
     <>
-      <h1>Footer</h1>
-      <div>
+      <div className='social-flex-cont-mob'>
+        <div className="foot-cp-mob">
+          <h6>&copy; Taylor J Covington. All rights reserved</h6>
+        </div>
+        <div className="social-mob">
+
         {socialLinks.map(mapSocial)}
+        </div>
       </div>
     </>
   )

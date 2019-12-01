@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './SkillsMob.scss';
+import '../HomeMob.scss'
+
 import {Fade} from 'react-reveal';
 
 import skills from './SkillsData';
@@ -21,7 +23,7 @@ const MySkillsMob = () => {
     return(
   <>
     <div className='language-cont-mob'>
-      <div className="skills-head-mob">
+      <div className="skills-head-mob title">
         <h1>My Skills</h1>
       </div>
       <div className="skills-intro">

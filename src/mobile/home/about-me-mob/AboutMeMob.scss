@@ -1,6 +1,6 @@
 .about-wrapper-mob {
   padding: 3em 0em;
-  height: 60vh;
+  height: 64vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,4 +13,10 @@
   color: black;
   margin-top: .6em;
   margin-bottom: .6em;
+}
+
+.about-words-wrapper-mob {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  // border: 2px solid red;
 }

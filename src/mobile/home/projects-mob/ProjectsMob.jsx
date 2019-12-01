@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './ProjectsMob.scss';
+import '../HomeMob.scss';
+
 import projectData from './ProjectData';
 import Project from './ProjectMob';
 
@@ -16,7 +18,7 @@ const ProjectsMob = () => {
   return(
   <>
   <div className="port-cont-mob">
-    <div className="proj-header-mob">
+    <div className="proj-header-mob title">
       <h2>Projects</h2>
     </div>
     <div className="projects">
