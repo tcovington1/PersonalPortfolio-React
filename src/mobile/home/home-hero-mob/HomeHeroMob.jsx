@@ -2,6 +2,8 @@ import React from 'react';
 // import styled from 'styled-components';
 import Fade from 'react-reveal';
 import './HomeHeroMob.scss';
+import '../HomeMob.scss';
+
 const Hero = () => {
   
   return(

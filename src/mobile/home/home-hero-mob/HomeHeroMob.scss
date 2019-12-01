@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
 .hero-cont-mob {
   position: relative;
   width: 100%;
@@ -8,8 +19,9 @@
     url('../../../assets/winter-hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   background-size: cover;
+  
   // border: 2px red solid;
   // opacity: 60%;
 
@@ -25,7 +37,8 @@
   }
   
   h1 {
-    font-family: 'Varela Round';
+    // font-family: 'Varela Round';
+    font-family: 'Oxygen', sans-serif;
     font-size: 5rem;
     line-height: 5.5rem;
     letter-spacing: 0.8rem;

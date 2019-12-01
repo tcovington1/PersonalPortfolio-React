@@ -12,6 +12,7 @@ import GlobalStyle from './styles/Global';
 
 import NavBarMob from './mobile/navMob/NavBarMob';
 import HomeMob from './mobile/home/HomeMob';
+import ResumeMob from './mobile/Resume';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -60,6 +61,7 @@ class App extends Component {
         {/* <Route path="/about" component={AboutMob} /> */}
         {/* <Route path="/projects" component={ProjectsMob} /> */}
         {/* <Route path="/contact" component={ContactMob} /> */}
+        <Route path="/resume" component={ResumeMob} />
         {/* <Route component={NoMatch} /> */}
       </Switch>
       </>

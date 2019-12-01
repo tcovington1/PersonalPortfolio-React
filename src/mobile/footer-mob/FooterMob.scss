@@ -1,0 +1,29 @@
+.social-flex-cont-mob {
+  display: flex;
+  background-color: rgb(231, 255, 253);
+  // border: 1px red solid;
+  
+}
+.foot-cp-mob {
+  // border: 1px green solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em 2rem;
+  
+}
+
+.social-wrapper-mob {
+  display: flex;
+  // border: 2px blue solid;
+  &.social-wrapper-mob a {
+    color: black;
+  }
+}
+
+.social-mob {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  // border: 2px yellow solid;
+}
