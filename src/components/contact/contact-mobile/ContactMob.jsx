@@ -6,7 +6,7 @@ import './ContactMob.scss';
 // import FormInput from '../../form-input/FormInput';
 
 class ContactMob extends Component {
-  state = { name: "", email: "", subject: "", message: "" };
+  state = { fullName: "", email: "", subject: "", message: "" };
 
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
@@ -22,7 +22,7 @@ class ContactMob extends Component {
   };
 
 render() {
-  const { name , email, subject, message } = this.state;
+  const { fullName , email, subject, message } = this.state;
   return(
   
     <div className="contact-cont">
@@ -39,8 +39,8 @@ render() {
               type="text"
               placeholder="Name"
               required
-              name="Name"
-              value={name}
+              name="fullName"
+              value={fullName}
               onChange={this.handleChange}
             />
         </div>
