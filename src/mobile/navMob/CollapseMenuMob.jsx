@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 import Link from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
+
 
 const CollapseMenuMob = (props) => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
@@ -11,11 +13,12 @@ const CollapseMenuMob = (props) => {
       <CollapseWrapper style={{zIndex: '2'}}
       >
         <NavLinks>
-        <li><a href="/" onClick={props.handleNavbar}>Home</a></li>
-          <li><a href="/portfolio" onClick={props.handleNavbar}>Portfolio</a></li>
-          <li><a href="/about" onClick={props.handleNavbar}>About</a></li>
+        <li><HashLink to="/#home" smooth onClick={props.handleNavbar}>Home</HashLink></li>
+          <li><HashLink to="/#about" smooth onClick={props.handleNavbar}>About</HashLink></li>
+          <li><HashLink to="/#skils" smooth onClick={props.handleNavbar}>Skills</HashLink></li>
+          <li><HashLink to="/#projects" smooth  onClick={props.handleNavbar}>Projects</HashLink></li>
+          <li><HashLink to="/#contact" smooth onClick={props.handleNavbar}>Contact</HashLink></li>
           <li><a href="/resume" onClick={props.handleNavbar}>Resume</a></li>
-          <li><a href="/contact" onClick={props.handleNavbar}>Contact</a></li>
         </NavLinks>
       </CollapseWrapper>
     );
