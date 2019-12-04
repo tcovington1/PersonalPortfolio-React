@@ -11,22 +11,36 @@ const skills = [
   },
   {
     id: 2, 
-    language: "Ruby On Rails",
-    icon: "facebook",
-
-
-  },
-  {
-    id: 3, 
-    language: "React",
+    language: "React.js",
     icon: "react",
 
 
   },
+
+  {
+    id: 3, 
+    language: "Next.js",
+    icon: "js",
+
+  },
   {
     id: 4, 
+    language: "Git/GitHub",
+    icon: "github",
+
+  },
+  {
+    id: 5, 
+    language: "Ruby On Rails",
+    icon: "gem",
+
+
+  },
+
+  {
+    id: 6, 
     language: "PostgreSQL",
-    icon: "twitter",
+    icon: "database",
 
   },
  

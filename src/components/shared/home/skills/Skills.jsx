@@ -1,18 +1,17 @@
 import React from 'react';
 
-import './SkillsMob.scss';
-import '../HomeMob.scss'
+import '../Home.scss'
 
 import {Fade} from 'react-reveal';
 
-import skills from './SkillsData';
-import SkillCardMob from './SkillCardMob';
+import skills from '../../../../mobile/home/languages-mob/SkillsData';
+import SkillCard from './SkillCard';
 
-const MySkillsMob = () => {
+const MySkills = () => {
 
 
   const mapSkills = (skill) => (
-    <SkillCardMob
+    <SkillCard 
       key={skill.id}
       name={skill.language}
       icon={skill.icon}
@@ -22,14 +21,14 @@ const MySkillsMob = () => {
  
     return(
   <>
-    <div className='language-cont-mob'>
-      <div className="skills-head-mob title">
+    <div className='language-cont'>
+      <div className="skills-head title">
         <h1>My Skills</h1>
       </div>
       <div className="skills-intro">
         <h3></h3>
       </div>
-      <div className="skills-mob">
+      <div className="skills">
         { skills.map(mapSkills)}
       </div>
     </div>
@@ -38,5 +37,5 @@ const MySkillsMob = () => {
 }
 
 
-export default MySkillsMob;
+export default MySkills;
 
