@@ -12,6 +12,7 @@ const ProjectsMob = () => {
     <Project 
       name={project.name}
       image={project.image}
+      about={project.about}
     />
   );
 

@@ -2,6 +2,8 @@ import React from 'react'
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import {Link} from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
+
 
 import Brand from './Brand';
 
@@ -24,11 +26,18 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand to='/'/>
           <NavLinks style={linkAnimation}>
-            <Link className='nav-links'to="/">Top</Link>
+            {/* <Link className='nav-links'to="/">Top</Link>
             <Link className='nav-links' to="/about">About</Link>
             <Link className='nav-links' to="/projects">Portfolio</Link>
             <Link className='nav-links' to="/resume">Resume</Link>
-            <Link className='nav-links' to="/contact">Contact</Link>
+            <Link className='nav-links' to="/contact">Contact</Link> */}
+             <HashLink className='nav-links' to="/#home" smooth>Top</HashLink>
+             <HashLink className='nav-links' to="/#about" smooth>About</HashLink>
+             <HashLink className='nav-links' to="/#skills" smooth>Skills</HashLink>
+             <HashLink className='nav-links' to="/#projects" smooth>Projects</HashLink>
+             <HashLink className='nav-links' to="/#contact" smooth>Contact</HashLink>
+             <Link className='nav-links' to="/resume">Resume</Link>
+
           </NavLinks>
         </FlexContainer>
       </NavBar>
@@ -44,7 +53,8 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #e7fffd;
+  /* background: #e7fffd; */
+  background: #f1f3f3;
   z-index: 1;
   font-size: 1.4rem;
   

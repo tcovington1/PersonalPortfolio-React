@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Fade } from "react-reveal";
 
 
-import './ContactMob.scss';
+import './Contact.scss';
 // import FormInput from '../../form-input/FormInput';
 
 class ContactMob extends Component {
@@ -25,15 +25,15 @@ render() {
   const { fullName , email, subject, message } = this.state;
   return(
   
-    <div className="contact-cont-mob">
-      <form className='contact_form-mob' action="https://formspree.io/mkngbaab"
+    <div className="contact-cont">
+      <form className='contact_form' action="https://formspree.io/mkngbaab"
         method="POST">
-        <div className="contact-heading-mob">
-          <h2 className='contact-me-mob title'>Contact Me</h2>
-          <p className="contact-me-subhead-mob">I'm always happy to help!</p>
+        <div className="contact-heading">
+          <h2 className='contact-me title'>Contact Me</h2>
+          <p className="contact-me-subhead">I'm always happy to help!</p>
         </div>
-        <div className='contact_items-mob'>
-        <div className='contact_item-mob'>
+        <div className='contact_items'>
+        <div className='contact_item'>
         {/* <label>Name</label> */}
         <input
               type="text"
@@ -44,7 +44,7 @@ render() {
               onChange={this.handleChange}
             />
         </div>
-        <div className='contact_item-mob'>
+        <div className='contact_item'>
         {/* <label>Email</label> */}
         <input
               type="email"
@@ -55,7 +55,7 @@ render() {
               onChange={this.handleChange}
             />        
         </div>
-        <div className='contact_item-mob'>
+        <div className='contact_item'>
         {/* <label>Subject</label> */}
         <input name='subject' 
          type="text"
@@ -64,7 +64,7 @@ render() {
          value={subject}
          onChange={this.handleChange}/>
         </div>
-        <div className='contact_item-mob'>
+        <div className='contact_item'>
         {/* <label>Message</label> */}
         <textarea
               type="text"
@@ -76,8 +76,8 @@ render() {
               onChange={this.handleChange}
               wrap='hard'
             />        </div>
-        <div className='contact-btn-div-mob'>
-          <button type='submit' className='contact_submit-mob' >Send Message</button>
+        <div className='contact-btn-div'>
+          <button type='submit' className='contact_submit' >Send Message</button>
         </div>
         </div>
         </form>
@@ -85,5 +85,9 @@ render() {
       )
 }
 }
+
+
+
+
 
 export default ContactMob;

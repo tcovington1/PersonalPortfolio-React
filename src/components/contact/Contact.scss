@@ -1,10 +1,11 @@
-.contact-cont-mob {
-  padding: 5em 2em;
-  // background-color: rgb(231, 255, 253);
+.contact-cont {
+  padding: 5em 20em;
+  // width: 75%;
+  background-color: rgb(231, 255, 253);
   background-color: #f1f3f3;
 }
 
-.contact_item-mob {
+.contact_item {
   padding-bottom: 2em;
   /* font-size: 14px; */
   font-size: 1.5em;
@@ -12,7 +13,7 @@
 
 }
 
-.contact_item-mob textarea, .contact_item-mob input {
+.contact_item textarea, .contact_item input {
   outline: none;
   border: none;
   border-bottom: solid 1px #ccc;
@@ -20,69 +21,69 @@
   width: 100%;
 }
 
-.contact_item-mob input:hover, textarea:hover {
+.contact_item input:hover, textarea:hover {
   border-bottom: solid 1px teal;
 }
 
-.contact_item-mob input, .contact_item-mob label {
+.contact_item input, .contact_item label {
   display: block;
   // background-color: rgb(231, 255, 253);
   background-color: #f1f3f3;
 }
 
-.contact_item-mob textarea {
+.contact_item textarea {
   height: 10em;
   // background-color: rgb(231, 255, 253);
   background-color: #f1f3f3;
 }
 
-.contact-heading-mob {
+.contact-heading {
   text-align: center;
 }
 
-.contact-mob h2 {
+.contact h2 {
   margin-bottom: 3vw;
   // font-size: 4em;
   // text-align: center;
 }
 
-.contact-me-mob {
+.contact-me {
   font-weight: bold;
   font-size: 3em;
 }
 
-.contact-mob p {
+.contact p {
   font-size: 2em;
   // text-align: center;
 }
 
-.contact-me-subhead-mob {
+.contact-me-subhead {
   font-size: 2em;
   padding-bottom: 1em;
 }
 
-.contact_logo-mob {
+.contact_logo {
   width: 100%;
   max-width: 30em;
   margin-bottom: 3vh;
   height: auto;
 }
 
-.address_info-mob {
+.address_info {
   font-weight: bold;
 }
 
-.address_info-mob p {
+.address_info p {
   margin: 0.5em;
 }
 
 // --------  Contact Button
 
-.contact-btn-div-mob {
+.contact-btn-div {
   text-align: center;
 }
 
-.contact_submit-mob {
+.contact_submit {
   font-size: 2em;
   background-color: black;
   color: white;
@@ -90,10 +91,11 @@
   border-radius: 10px;
 }
 
-.contact_submit-mob:hover {
-  background-color: rgb(231, 255, 230);
+.contact_submit:hover {
+  background-color: white;
+  color: black;
 }
 
-.contact_right-mob:hover {
+.contact_right:hover {
   box-shadow: 0px 8px 16px 0px rgba(155, 149, 149, 0.2);
 }

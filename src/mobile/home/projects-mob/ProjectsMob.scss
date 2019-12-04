@@ -1,7 +1,7 @@
 // ---------- Projects Mob -----------
 
 .port-cont-mob {
-  height: 50em;
+  height: 80vh;
   text-align: center;
   padding: 2em;
 }
@@ -20,6 +20,12 @@
   width: 95%;
   height: 30vh;
   cursor: pointer;
+}
+
+.proj-head-mob {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  // border: 1px green solid;
 }
 
 .project-cont-mob {
