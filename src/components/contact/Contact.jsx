@@ -26,7 +26,7 @@ render() {
   return(
   
     <div className="contact-cont">
-      <form className='contact_form' action="https://formspree.io/mkngbaab"
+      <form className='contact_form' action="https://formspree.io/tcovingtondev@gmail.com"
         method="POST">
         <div className="contact-heading">
           <h2 className='contact-me title'>Contact Me</h2>
