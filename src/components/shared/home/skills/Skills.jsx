@@ -13,6 +13,7 @@ const MySkills = () => {
   const mapSkills = (skill) => (
     <SkillCard 
       key={skill.id}
+      id={skill.id}
       name={skill.language}
       icon={skill.icon}
     

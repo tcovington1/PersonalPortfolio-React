@@ -63,6 +63,23 @@
       // border: 2px green solid;
   }
 
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    .center-col-mob {
+      background-attachment: fixed;
+    }
+    h1 {
+      font-size: 8rem;
+      line-height: 7.5rem;
+
+    }
+    h6 {
+      font-size: 3rem;
+    }
+    }
+
 }
+
+
 
 

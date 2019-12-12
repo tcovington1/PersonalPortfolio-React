@@ -4,6 +4,11 @@
   height: 80vh;
   text-align: center;
   padding: 2em;
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    height: 100vh;
+
+  }
 }
 
 .proj-header-mob h2 {
@@ -11,6 +16,10 @@
   padding: 1em;
   color: black;
   font-weight: bold;
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    font-size:  5em;
+  }
+
   
 }
 
@@ -20,14 +29,32 @@
   width: 95%;
   height: 30vh;
   cursor: pointer;
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    height: 50em;
+    
+  }
 }
 
 .proj-head-mob {
   font-size: 1.5em;
   padding-bottom: 1em;
   // border: 1px green solid;
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    font-size: 2.2em;
+    padding: 1em 2.5em;
+    line-height: 1.85em;
+  }
 }
 
 .project-cont-mob {
   height: 10em;
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    h2 {
+      font-size: 3em;
+      text-decoration: underline;
+    }
+
+  }
+
 }

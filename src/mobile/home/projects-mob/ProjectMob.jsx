@@ -1,6 +1,6 @@
 import React from 'react';
 import GenHuImage from '../../../assets/genhuscreenshot.jpeg';
-
+import { HeadingMob } from "../../StylesMob";
 
 const Project = (props) => (
   <>
