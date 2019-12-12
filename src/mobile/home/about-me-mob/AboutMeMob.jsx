@@ -4,6 +4,7 @@ import './AboutMeMob.scss';
 import AboutMePic from './AboutMePic';
 import AboutMeCardMob from './about-me-card-mob/AboutMeCardMob';
 import '../HomeMob.scss'
+import { HeadingMob } from '../../StylesMob';
 
 class AboutMeMob extends Component {
 
@@ -11,8 +12,8 @@ class AboutMeMob extends Component {
     return(
       <>
       <div className="about-wrapper-mob">
-        <div className="about-title-mob title">
-            <h1>About Me</h1>
+        <div >
+            <HeadingMob>About Me</HeadingMob>
         </div>
         <div className="about-me-pic">
           <AboutMePic />

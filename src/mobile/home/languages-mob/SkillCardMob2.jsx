@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
-const SkillCardMob = (props) => (
+const SkillCardMob2 = (props) => (
 
   <>
   <Fade left duration={1000} delay={500}>
@@ -12,17 +12,14 @@ const SkillCardMob = (props) => (
       {/* <i class={props.icon} ></i> */}
     {/* <FontAwesomeIcon icon={['fab', props.icon ]} className='skill-icons' /> */}
     {
-      props.id <= 4 ? 
+      props.id >= 4 ? 
           
           <FontAwesomeIcon 
-          icon={['fab', props.icon ]} 
-          className='skill-icons-mob' 
+          icon={['fas', props.icon ]} 
+          className='skill-icons' 
           />
           :
-          <FontAwesomeIcon 
-          icon={['fas', props.icon ]} 
-          className='skill-icons-mob' 
-          />
+          null
 
     }
       <h3>{props.name}</h3>
@@ -31,4 +28,4 @@ const SkillCardMob = (props) => (
   </>
 )
 
-export default SkillCardMob;
+export default SkillCardMob2;

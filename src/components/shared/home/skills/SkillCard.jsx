@@ -12,11 +12,22 @@ const SkillCard = (props) => (
       {/* <i class={props.icon} ></i> */}
       <div className="skill-icons">
         
-    <FontAwesomeIcon icon={['fab', props.icon ]}  />
+    {/* <FontAwesomeIcon icon={['fab', props.icon ]}  /> */}
+      {
+        props.id <= 4 ? 
+        
+        <FontAwesomeIcon 
+        icon={['fab', props.icon ]} 
+        className='skill-icons' 
+        />
+        :
+        <FontAwesomeIcon 
+        icon={['fas', props.icon ]} 
+        className='skill-icons' 
+        />
+        
+      }
       </div>
-    {/* {
-      img ? <img
-    } */}
       <h3>{props.name}</h3>
     </div>
   </Fade>

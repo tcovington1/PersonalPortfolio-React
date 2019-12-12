@@ -70,6 +70,8 @@ const FlexContainer = styled.div`
   padding: 0 2rem;;
   justify-content: space-between;
   height: 6rem;
+
+  
 `;
 
 const NavLinks = styled(animated.ul)`
@@ -95,8 +97,11 @@ const NavLinks = styled(animated.ul)`
       
     }
 
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+      justify-self: start;
+    }
 
-    @media (max-width: 768px) {
+    @media (max-width: 450px) {
       display: none;
     }
   }
@@ -105,7 +110,7 @@ const NavLinks = styled(animated.ul)`
 const BurgerWrapper = styled.div`
   margin: auto 0;
 
-  @media (min-width: 769px) {
+  @media (min-width: 450px) {
     display: none;
   }
 `;

@@ -2,6 +2,8 @@ import React from 'react';
 
 import './ProjectsMob.scss';
 import '../HomeMob.scss';
+import { HeadingMob } from "../../StylesMob";
+
 
 import projectData from './ProjectData';
 import Project from './ProjectMob';
@@ -19,8 +21,8 @@ const ProjectsMob = () => {
   return(
   <>
   <div className="port-cont-mob">
-    <div className="proj-header-mob title">
-      <h2>Projects</h2>
+    <div >
+      <HeadingMob>Projects</HeadingMob>
     </div>
     <div className="projects">
       {projectData.map(mapProjects)}
