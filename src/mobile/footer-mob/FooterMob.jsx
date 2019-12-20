@@ -1,13 +1,13 @@
 import React from 'react';
 import socialLinks from './SocialData';
 
-import SocialLink from './SocialLink';
+import SocialLinkMob from './SocialLink';
 import './FooterMob.scss';
 
 const FooterMob = () => {
 
   const mapSocial = (social) => (
-    <SocialLink 
+    <SocialLinkMob 
     icon={social.icon}
     link={social.link}
     />
@@ -17,7 +17,7 @@ const FooterMob = () => {
     <>
       <div className='social-flex-cont-mob'>
         <div className="foot-cp-mob">
-          <h6>&copy; Taylor J Covington. All rights reserved</h6>
+          <h6>&copy; Taylor J Covington</h6>
         </div>
         <div className="social-mob">
 
