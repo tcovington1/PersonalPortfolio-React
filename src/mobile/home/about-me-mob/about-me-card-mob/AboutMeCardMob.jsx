@@ -17,7 +17,7 @@ const AboutMeCardMob = () => (
             <div className="words-mob">
               <p className='words-p'>I am currently learning all aspects of React.js which includes Gatsby.js and Next.js.
               I also really enjoy learning back-end languages. During bootcamp we learned Ruby and Ruby on Rails with PostgreSQL
-              which makes building a full-stack application very easy. I'm currenly learning NodeJS, ExpressJS, and MongoDB to extend my stack knowledge and offering. What can I say, I love to learn!
+              which makes building a full-stack application very easy. I'm currenly learning Node.js, Express.js, and MongoDB to extend my stack knowledge and offering. What can I say, I love to learn!
               </p>
           
             </div>

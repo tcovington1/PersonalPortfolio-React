@@ -2,6 +2,11 @@
   padding: 5em 2em;
   // background-color: rgb(231, 255, 253);
   background-color: #f1f3f3;
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    padding: 5em 5em;
+
+  }
 }
 
 .contact_item-mob {

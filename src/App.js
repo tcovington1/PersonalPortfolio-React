@@ -48,6 +48,7 @@ class App extends Component {
   render() {
     const { width, menuLoaded } = this.state
     const isMobile = width <= 800;
+    // const isIpadMobile = width <= 1366  >= 800;
 
 
     if (isMobile) {
