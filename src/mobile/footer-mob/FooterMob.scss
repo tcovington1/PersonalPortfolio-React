@@ -8,7 +8,7 @@
   
 }
 .foot-cp-mob {
-  border: 1px green solid;
+  // border: 1px green solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +40,7 @@
 .social-icon-mob {
   font-size: 3em;
   margin: .2em 0em;
-  border: 1px solid red;
+  // border: 1px solid red;
   
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     font-size: 5em;

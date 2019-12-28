@@ -17,7 +17,7 @@ const FooterMob = () => {
     <>
       <div className='social-flex-cont-mob'>
         <div className="foot-cp-mob">
-          <h6>&copy; Taylor J Covington</h6>
+          <h6>&copy; 2019 Taylor J Covington</h6>
         </div>
         <div className="social-mob">
 
