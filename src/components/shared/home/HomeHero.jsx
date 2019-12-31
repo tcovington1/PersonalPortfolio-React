@@ -1,6 +1,7 @@
 import React from 'react';
 // import styled from 'styled-components';
 import Fade from 'react-reveal';
+import 'react-typed/dist/animatedCursor.css'
 import Typed from 'react-typed';
 import './Home.scss';
 

@@ -15,9 +15,10 @@ const CollapseMenuMob = (props) => {
         <NavLinks>
         <li><HashLink to="/#home" smooth onClick={props.handleNavbar}>Home</HashLink></li>
           <li><HashLink to="/#about" smooth onClick={props.handleNavbar}>About</HashLink></li>
-          <li><HashLink to="/#skils" smooth onClick={props.handleNavbar}>Skills</HashLink></li>
-          <li><HashLink to="/#projects" smooth  onClick={props.handleNavbar}>Projects</HashLink></li>
+          {/* <li><HashLink to="/#skils" smooth onClick={props.handleNavbar}>Skills</HashLink></li> */}
+          {/* <li><HashLink to="/#projects" smooth  onClick={props.handleNavbar}>Projects</HashLink></li> */}
           <li><HashLink to="/#contact" smooth onClick={props.handleNavbar}>Contact</HashLink></li>
+          <li><a href="https://codewithtaylor.netlify.com/">Blog</a></li>
           <li><a href="/resume" onClick={props.handleNavbar}>Resume</a></li>
         </NavLinks>
       </CollapseWrapper>
