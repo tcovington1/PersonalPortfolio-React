@@ -14,12 +14,11 @@ const skills = [
     language: "React.js",
     icon: "react",
 
-
   },
 
   {
     id: 3, 
-    language: "Next.js",
+    language: "Gatsby.js",
     icon: "js",
 
   },
