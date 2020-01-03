@@ -26,11 +26,11 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand to='/'/>
           <NavLinks style={linkAnimation}>
-            <Link className='nav-links'to="/">Top</Link>
+            <Link className='nav-links'to="/">Home</Link>
             <Link className='nav-links' to="/about">About</Link>
-            <Link className='nav-links' to="/projects">Portfolio</Link>
-            <Link className='nav-links' to="/resume">Resume</Link>
             <Link className='nav-links' to="/contact">Contact</Link>
+            <Link ><a className='nav-links' href="https://codewithtaylor.netlify.com/">Blog</a></Link>
+            <Link className='nav-links' to="/resume">Resume</Link>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenuMob

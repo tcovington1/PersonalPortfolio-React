@@ -31,11 +31,10 @@ const Navbar = (props) => {
             <Link className='nav-links' to="/projects">Portfolio</Link>
             <Link className='nav-links' to="/resume">Resume</Link>
             <Link className='nav-links' to="/contact">Contact</Link> */}
-             <HashLink className='nav-links' to="/#home" smooth>Top</HashLink>
+             <HashLink className='nav-links' to="/#home" smooth>Home</HashLink>
              <HashLink className='nav-links' to="/#about" smooth>About</HashLink>
-             <HashLink className='nav-links' to="/#skills" smooth>Skills</HashLink>
-             <HashLink className='nav-links' to="/#projects" smooth>Projects</HashLink>
              <HashLink className='nav-links' to="/#contact" smooth>Contact</HashLink>
+             <Link ><a className='nav-links' href="https://codewithtaylor.netlify.com/">Blog</a></Link>
              <Link className='nav-links' to="/resume">Resume</Link>
 
           </NavLinks>
