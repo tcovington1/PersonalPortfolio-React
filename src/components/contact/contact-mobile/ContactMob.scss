@@ -93,11 +93,13 @@
   color: white;
   padding: .5em;
   border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(25,17,34,0.05);
+
 }
 
 .contact_submit-mob:hover {
-  background-color: rgb(231, 255, 230);
-}
+  background-color: white;
+  color: black;}
 
 .contact_right-mob:hover {
   box-shadow: 0px 8px 16px 0px rgba(155, 149, 149, 0.2);
