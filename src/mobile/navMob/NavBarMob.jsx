@@ -29,7 +29,7 @@ const Navbar = (props) => {
             <Link className='nav-links'to="/">Home</Link>
             <Link className='nav-links' to="/about">About</Link>
             <Link className='nav-links' to="/contact">Contact</Link>
-            <a className='nav-links' href="https://codewithtaylor.netlify.com/">Blog</a>
+            <a className='nav-links' href="https://codewithtaylor.com/">Blog</a>
             <Link className='nav-links' to="/resume">Resume</Link>
           </NavLinks>
           <BurgerWrapper>
