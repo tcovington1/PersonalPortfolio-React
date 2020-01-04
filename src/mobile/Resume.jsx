@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../assets/taylor_resume3.jpeg'
+import Resume from '../assets/taylor_resume4.jpeg'
 
 const ResumeMob = () => (
   <>
