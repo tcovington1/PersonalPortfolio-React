@@ -36,7 +36,7 @@ const Navbar = (props) => {
              <HashLink className='nav-links' to="/#contact" smooth>Contact</HashLink>
              <a className='nav-links' href="https://codewithtaylor.com/">Blog</a>
              <Link className='nav-links' to="/resume">Resume</Link>
-
+             
           </NavLinks>
         </FlexContainer>
       </NavBar>
