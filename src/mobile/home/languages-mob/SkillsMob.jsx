@@ -1,10 +1,16 @@
 import React from 'react';
+import postgresqlIcon from '@iconify/icons-logos/postgresql';
+import { Icon, InlineIcon } from '@iconify/react';
+import html5Icon from '@iconify/icons-fa/html5';
+
+// import { Icon, InlineIcon } from '@iconify/react';
+
 
 import './SkillsMob.scss';
 import '../HomeMob.scss';
 import { HeadingMob } from "../../StylesMob";
 
-import {Fade} from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 import skills from './SkillsData';
 import SkillCardMob from './SkillCardMob';
@@ -18,7 +24,7 @@ const MySkillsMob = () => {
       key={skill.id}
       id={skill.id}
       name={skill.language}
-      icon={skill.icon}
+      skillIcon={skill.icon}
     
     />
     // <SkillCardMob
@@ -41,6 +47,7 @@ const MySkillsMob = () => {
       <div className="skills-mob">
         { skills.map(mapSkills)}
       </div>
+      {/* <Icon icon={postgresqlIcon} /> */}
     </div>
   </>
     )
