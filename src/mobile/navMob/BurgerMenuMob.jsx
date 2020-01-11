@@ -35,9 +35,9 @@ const Wrapper = styled.div`
     background: black;
     display: block;
     position: relative;
-    width: 4rem;
+    width: 5rem;
     height: .4rem;
-    margin-bottom: .7rem;
+    margin-bottom: .8rem;
     transition: all ease-in-out 0.2s;
   }
 
