@@ -69,7 +69,7 @@ const FlexContainer = styled.div`
   margin: auto;
   padding: 0 2rem;;
   justify-content: space-between;
-  height: 6rem;
+  height: 7rem;
 
   
 `;
