@@ -1,6 +1,10 @@
 import React from 'react';
 import {Fade} from 'react-reveal';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Icon, InlineIcon } from '@iconify/react';
+
+
+
 
 
 
@@ -12,15 +16,10 @@ const SkillCardMob = (props) => (
       {/* <i class={props.icon} ></i> */}
     {/* <FontAwesomeIcon icon={['fab', props.icon ]} className='skill-icons' /> */}
     {
-      props.id <= 4 ? 
           
-          <FontAwesomeIcon 
-          icon={['fab', props.icon ]} 
-          className='skill-icons-mob' 
-          />
-          :
-          <FontAwesomeIcon 
-          icon={['fas', props.icon ]} 
+          <Icon 
+          icon={props.skillIcon} 
+           
           className='skill-icons-mob' 
           />
 
