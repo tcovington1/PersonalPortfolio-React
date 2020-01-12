@@ -158,7 +158,7 @@
 
 .language-cont {
   padding: 5em 9em;
-  height: 80vh;
+  height: 100em;
   width: 100%;
   // background-color: rgb(231, 255, 253);
   background-color: #f1f3f3;
@@ -169,6 +169,7 @@
 }
 
 .skills-head h1 {
+  // font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 4em;
   padding-bottom: 1em;
@@ -189,19 +190,20 @@
 
 .skill-wrapper {
   
-  width: 30%;
+  width: 20%;
   // border: 2px blue solid;
   text-align: center;
   // padding: 1em;
   margin: .5em;
 
   .skill-icons {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: .5em 0em;
   }
 
   h3 {
-    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
     // font-weight: lighter;
   }
 }

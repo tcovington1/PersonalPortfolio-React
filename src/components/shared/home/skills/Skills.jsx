@@ -15,8 +15,8 @@ const MySkills = () => {
       key={skill.id}
       id={skill.id}
       name={skill.language}
-      icon={skill.icon}
-    
+      skillIcon={skill.icon}
+  
     />
   );
  

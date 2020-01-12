@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
 // ---------- Projects Mob -----------
 
 .port-cont-mob {
   height: 70em;
   text-align: center;
   padding: 2em;
+
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
 
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     height: 110vh;
@@ -12,10 +27,12 @@
 }
 
 .proj-header-mob h2 {
+  font-family: 'Raleway', sans-serif;
   font-size: 4em;
-  padding: 1em;
+  padding: 2em;
   color: black;
   font-weight: bold;
+  // border: red solid 2px;
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     font-size:  5em;
   }

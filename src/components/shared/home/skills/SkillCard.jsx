@@ -1,6 +1,6 @@
 import React from 'react';
 import {Fade} from 'react-reveal';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Icon, InlineIcon } from '@iconify/react';
 
 
 
@@ -13,7 +13,14 @@ const SkillCard = (props) => (
       <div className="skill-icons">
         
     {/* <FontAwesomeIcon icon={['fab', props.icon ]}  /> */}
-      {
+
+    <Icon 
+          icon={props.skillIcon} 
+           
+          className='skill-icons' 
+    />
+
+      {/* {
         props.id <= 4 ? 
         
         <FontAwesomeIcon 
@@ -26,7 +33,7 @@ const SkillCard = (props) => (
         className='skill-icons' 
         />
         
-      }
+      } */}
       </div>
       <h3>{props.name}</h3>
     </div>

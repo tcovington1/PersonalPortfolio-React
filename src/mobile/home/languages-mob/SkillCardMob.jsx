@@ -15,7 +15,7 @@ const SkillCardMob = (props) => (
     <div className="skill-wrapper-mob">
       {/* <i class={props.icon} ></i> */}
     {/* <FontAwesomeIcon icon={['fab', props.icon ]} className='skill-icons' /> */}
-    {
+    
           
           <Icon 
           icon={props.skillIcon} 
@@ -23,7 +23,7 @@ const SkillCardMob = (props) => (
           className='skill-icons-mob' 
           />
 
-    }
+    
       <h3>{props.name}</h3>
     </div>
   </Fade>
