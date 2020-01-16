@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 import Link from 'react-router-dom';
 import { HashLink } from "react-router-hash-link";
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 
 
 const CollapseMenuMob = (props) => {
@@ -12,6 +14,8 @@ const CollapseMenuMob = (props) => {
     return(
       <CollapseWrapper style={{zIndex: '2'}}
       >
+          {/* <Fade cascade duration={1000}> */}
+          <Bounce cascade>
         <NavLinks>
         <li><HashLink to="/#home" smooth onClick={props.handleNavbar}>Home</HashLink></li>
           <li><HashLink to="/#about" smooth onClick={props.handleNavbar}>About</HashLink></li>
@@ -21,6 +25,8 @@ const CollapseMenuMob = (props) => {
           <li><a href="https://codewithtaylor.com/">Blog</a></li>
           <li><a href="/resume" onClick={props.handleNavbar}>Resume</a></li>
         </NavLinks>
+        </Bounce>
+      {/* </Fade> */}
       </CollapseWrapper>
     );
   }

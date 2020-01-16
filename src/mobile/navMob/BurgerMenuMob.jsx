@@ -1,24 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useSpring, animated, config } from "react-spring";
-
+import Bounce from 'react-reveal/Bounce';
 
 const BurgerMenu = (props) => {
 
-  const linkAnimation = useSpring({
-    from: { transform: 'translate3d(0, 100px, 0)', opacity: 0 },
-    to: { transform: 'translate3d(0, 0, 0)', opacity: 1 },
-    delay: 5000,
-    config: config.wobbly,
-  });
+
 
   return(
     <Wrapper  onClick={props.handleNavbar}>
+      <Bounce right cascade>
       <div className={ props.navbarState ? 'open' : ''}>
-        <span style={linkAnimation}>&nbsp;</span>
-        <span style={linkAnimation}>&nbsp;</span>
-        <span style={linkAnimation}>&nbsp;</span>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
       </div>
+      </Bounce>
     </Wrapper>
   )
 }

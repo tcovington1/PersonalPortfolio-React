@@ -1,5 +1,6 @@
 import React,  { Component } from 'react';
 
+
 import './AboutMeMob.scss';
 import AboutMePic from './AboutMePic';
 import AboutMeCardMob from './about-me-card-mob/AboutMeCardMob';
