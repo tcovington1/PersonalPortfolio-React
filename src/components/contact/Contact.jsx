@@ -3,6 +3,7 @@ import { Fade } from "react-reveal";
 
 
 import './Contact.scss';
+import { Button } from '../Button';
 // import FormInput from '../../form-input/FormInput';
 
 class ContactMob extends Component {
@@ -77,7 +78,7 @@ render() {
               wrap='hard'
             />        </div>
         <div className='contact-btn-div'>
-          <button type='submit' className='contact_submit' >Send Message</button>
+          <Button type='submit' buttonStyle='btn-primary-solid' buttonSize="btn-med" >Send Message</Button>
         </div>
         </div>
         </form>
