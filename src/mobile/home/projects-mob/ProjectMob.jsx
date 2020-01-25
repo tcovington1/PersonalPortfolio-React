@@ -5,6 +5,7 @@ import { Icon, InlineIcon } from '@iconify/react';
 import githubIcon from '@iconify/icons-logos/github-icon';
 import {Fade} from 'react-reveal';
 import Slide from 'react-reveal/Slide';
+import { Button } from '../../../components/Button';
 
 
 
@@ -13,15 +14,18 @@ const Project = (props) => (
   <>
   <div className="project-cont-mob">
     <h2>{props.name}</h2>
-    {/* <Fade right duration={1000}> */}
       <p className="proj-head-mob">{props.about}</p>
-    {/* </Fade> */}
-    {/* <div className="project-button">
-      <button><a href={props.github}>GitHub</a></button>
-    </div> */}
-    <Slide bottom duration={2000}>
-     <a href='https://genhu.herokuapp.com' target='_blank'><img src={GenHuImage} className='project-image-mob'/></a>
-    </Slide>
+    <div className='proj-butn'>
+      <Button
+        type='button'
+        buttonStyle='butn-primary-outline'
+        buttonSize='butn-sm'
+      ><a href='https://github.com/harlanevans/genhu' className='button-link'>GitHub Repo</a>
+      </Button>
+    </div>
+    <div className='project-image-mob-div'>
+      <a href='https://genhu.herokuapp.com' target='_blank'><img src={GenHuImage} className='project-image-mob'/></a>
+    </div>
   </div>
   </>
 );
