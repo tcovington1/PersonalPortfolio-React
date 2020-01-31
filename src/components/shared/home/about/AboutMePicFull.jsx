@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPic from '../../../../assets/Taylor_Covington.jpeg';
+import MyPic from '../../../../assets/Taylor_Covington_mob.jpeg';
 import '../Home.scss';
 
 const AboutMePic = () => (
