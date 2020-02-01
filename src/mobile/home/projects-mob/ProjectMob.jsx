@@ -20,6 +20,12 @@ const Project = (props) => (
         type='button'
         buttonStyle='butn-primary-outline'
         buttonSize='butn-sm'
+      ><a href='https://genhu.herokuapp.com/' className='button-link'>Site Page</a>
+      </Button>
+      <Button
+        type='button'
+        buttonStyle='butn-primary-outline'
+        buttonSize='butn-sm'
       ><a href='https://github.com/harlanevans/genhu' className='button-link'>GitHub Repo</a>
       </Button>
     </div>
