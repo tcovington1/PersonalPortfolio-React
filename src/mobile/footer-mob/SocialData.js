@@ -9,6 +9,11 @@ const socialLinks = [
     icon: "github",
     link: "https://github.com/tcovington1",
   },
+  {
+    id: 3,
+    icon: "linkedin",
+    link: "https://www.linkedin.com/in/taylorjcovington/",
+  },
 
 ]
 

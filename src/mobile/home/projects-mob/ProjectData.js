@@ -11,6 +11,15 @@ const projectData = [
     github: 'https://github.com/harlanevans/genhu',
     
   },
+  // {
+  //   id: 2,
+  //   name: 'Code With Taylor',
+  //   website: 'genhu.herokuapp.com',
+  //   about: 'This is my personal blog where I share my code journey, dad stories, and technical posts to help others learn. ',
+  //   image: {genhuImage},
+  //   github: 'https://codewithtaylor.com/',
+    
+  // },
 ];
 
 export default projectData;
