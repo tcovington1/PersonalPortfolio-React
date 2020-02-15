@@ -14,6 +14,8 @@ const CollapseMenuMob = (props) => {
     return(
       <CollapseWrapper style={{zIndex: '2'}}
       >
+        <div className="collapse-center">
+
           <Fade cascade duration={1000}>
           {/* <Bounce cascade> */}
         <NavLinks>
@@ -27,6 +29,7 @@ const CollapseMenuMob = (props) => {
         </NavLinks>
         {/* </Bounce> */}
       </Fade>
+        </div>
       </CollapseWrapper>
     );
   }
@@ -43,25 +46,34 @@ export default CollapseMenuMob;
 // }}
 
 const CollapseWrapper = styled(animated.div)`
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 7rem;
   left: 0;
   right: 0;
+  height: 100%;
   // background: #2d3;
   background: #2d3436;
+
+  .collapse-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 `;
 
 const NavLinks = styled.ul`
   list-style-type: none;
-  padding: 2rem 1rem 2rem 2rem;
+  padding: 2rem 1rem 5em 2rem;
 
   & li {
     transition: all 300ms linear 0s;
   }
 
   & a {
-    font-size: 1.4rem;
+    font-size: 2.75rem;
     line-height: 2;
     color: #dfe6e9;
     text-transform: uppercase;
