@@ -13,7 +13,7 @@ const STYLES = [
 ];
 
 const SIZES = [
-  "butn-med", "butn-sm"
+  "butn-med", "butn-sm", "butn-xsm",
 ];
 
 export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
