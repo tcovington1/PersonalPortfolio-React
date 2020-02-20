@@ -1,23 +1,53 @@
+// icons
+import postgresqlIcon from '@iconify/icons-logos/postgresql';
+import html5 from '@iconify/icons-logos/html-5';
+import reactIcon from '@iconify/icons-logos/react';
+import githubIcon from '@iconify/icons-logos/github-icon';
+import languageRubyOnRails from '@iconify/icons-mdi/language-ruby-on-rails';
+import gatsbyIcon from '@iconify/icons-logos/gatsby';
+import graphqlIcon from '@iconify/icons-logos/graphql';
+import css3 from '@iconify/icons-logos/css-3';
+import netlifyIcon from '@iconify/icons-logos/netlify';
+import herokuIcon from '@iconify/icons-logos/heroku-icon';
+
+
+
+
+//images
+import cwtImage from '../../../assets/codewithtaylor.jpeg';
 import GenHuImage from '../../../assets/genhuscreenshot.jpeg';
-const genhuImage = {GenHuImage}
+// const genhuImage = {GenHuImage}
+// const codeWithTaylor = {cwtImage}
 
 const projectData = [
   {
     id: 1,
     name: 'Generations Humanitarian',
-    website: 'genhu.herokuapp.com',
+    website: 'https://genhu.herokuapp.com',
     about: 'During my part-time full-stack web dev bootcamp at DevPoint Labs I was assigned to GenHu with 4 other developers. Our goal was to rebuild GenHu.org, a local non-profit site. This site is built with a Ruby on Rails back-end giving our client access to an admin page. We then used React.js for the front-end to build reusable components. ',
-    image: {genhuImage},
+    image: GenHuImage,
     github: 'https://github.com/harlanevans/genhu',
+    icons: [ reactIcon, languageRubyOnRails, postgresqlIcon, herokuIcon ]
+    
+  },
+  {
+    id: 2,
+    name: 'Code With Taylor',
+    website: 'https://codewithtaylor.com/',
+    about: 'This is my personal blog where I share my code journey, dad stories, and technical posts to help others learn. ',
+    image: cwtImage,
+    github: 'https://github.com/tcovington1/CodeWithTaylor-blog',
+    icons: [ gatsbyIcon, graphqlIcon, netlifyIcon ]
     
   },
   // {
   //   id: 2,
   //   name: 'Code With Taylor',
-  //   website: 'genhu.herokuapp.com',
+  //   website: 'https://codewithtaylor.com/',
   //   about: 'This is my personal blog where I share my code journey, dad stories, and technical posts to help others learn. ',
-  //   image: {genhuImage},
-  //   github: 'https://codewithtaylor.com/',
+  //   image: cwtImage,
+  //   github: 'https://github.com/tcovington1/CodeWithTaylor-blog',
+  //   icons: [ gatsbyIcon, graphqlIcon ]
     
   // },
 ];

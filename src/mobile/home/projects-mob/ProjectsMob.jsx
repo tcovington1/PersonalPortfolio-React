@@ -16,6 +16,9 @@ const ProjectsMob = () => {
       name={project.name}
       image={project.image}
       about={project.about}
+      url={project.website}
+      github={project.github}
+      languages={project.icons}
     />
   );
  
@@ -26,7 +29,7 @@ const ProjectsMob = () => {
       <HeadingMob>Projects</HeadingMob>
     </div>
 
-    <div className="projects">
+    <div className="projects-mob">
       {projectData.map(mapProjects)}
     </div>
   </div>

@@ -10,10 +10,13 @@ const Projects = () => {
 
   const mapProjects = (project) => (
     <Project 
-      name={project.name}
-      image={project.image}
-      about={project.about}
-    />
+    name={project.name}
+    image={project.image}
+    about={project.about}
+    url={project.website}
+    github={project.github}
+    languages={project.icons}
+  />
   );
 
   return(
