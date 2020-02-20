@@ -7,6 +7,7 @@ import { Icon, InlineIcon } from '@iconify/react';
 import githubIcon from '@iconify/icons-logos/github-icon';
 import {Fade} from 'react-reveal';
 import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
 import { Button } from '../../../components/Button';
 
 const genhuImage = {GenHuImage}
@@ -18,6 +19,7 @@ const codeWithTaylor = {cwtImage}
 
 const Project = (props) => (
   <>
+    <Fade bottom>
   <div className="project-cont-mob">
     <h2>{props.name}</h2>
       <p className="proj-head-mob">{props.about}</p>
@@ -51,6 +53,7 @@ const Project = (props) => (
       ))}
     </div>
   </div>
+    </Fade>
   </>
 );
 
