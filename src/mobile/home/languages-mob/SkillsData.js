@@ -6,6 +6,8 @@ import languageRubyOnRails from '@iconify/icons-mdi/language-ruby-on-rails';
 import gatsbyIcon from '@iconify/icons-logos/gatsby';
 import graphqlIcon from '@iconify/icons-logos/graphql';
 import css3 from '@iconify/icons-logos/css-3';
+import sassIcon from '@iconify/icons-logos/sass';
+
 
 
 
@@ -21,8 +23,8 @@ const skills = [
   },
   {
     id: 2, 
-    language: "CSS3",
-    icon: css3,
+    language: "SASS",
+    icon: sassIcon,
   },
   {
     id: 3, 

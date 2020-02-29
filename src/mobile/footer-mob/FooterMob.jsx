@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button} from '../../components/Button'
 import socialLinks from './SocialData';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 import SocialLinkMob from './SocialLink';
 import './FooterMob.scss';
@@ -35,10 +35,10 @@ const FooterMob = () => {
       ><a href='https://codewithtaylor.com/' className='button-link'>Blog</a>
       </Button> */}
         <div className="social-mob">
-          <Bounce right>
+          <Fade>
 
         {socialLinks.map(mapSocial)}
-        </Bounce>
+        </Fade>
         </div>
       </div>
     </>

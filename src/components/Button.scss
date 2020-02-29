@@ -90,8 +90,14 @@ $dark: #2C3E50;
   
 }
 
-a {
+.butn-xsm:link, .butn-xsm:visited, .butn-sm:link, .butn-sm:visited {
   text-decoration: none;
   color: $primary
+}
+
+.button-link {
+  text-decoration: none;
+  color: $primary
+
 }
 
