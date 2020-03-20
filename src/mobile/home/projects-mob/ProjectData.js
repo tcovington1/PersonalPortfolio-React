@@ -10,12 +10,20 @@ import css3 from '@iconify/icons-logos/css-3';
 import netlifyIcon from '@iconify/icons-logos/netlify';
 import herokuIcon from '@iconify/icons-logos/heroku-icon';
 
+import mongodbIcon from '@iconify/icons-logos/mongodb';
+import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
+import expressIcon from '@iconify/icons-logos/express';
+
+
+
+
 
 
 
 //images
 import cwtImage from '../../../assets/codewithtaylor.jpeg';
 import GenHuImage from '../../../assets/genhuscreenshot.jpeg';
+import DevChat from '../../../assets/devchat.png';
 // const genhuImage = {GenHuImage}
 // const codeWithTaylor = {cwtImage}
 
@@ -38,6 +46,16 @@ const projectData = [
     image: cwtImage,
     github: 'https://github.com/tcovington1/CodeWithTaylor-blog',
     icons: [ gatsbyIcon, graphqlIcon, netlifyIcon ]
+    
+  },
+  {
+    id: 3,
+    name: 'DevChat',
+    website: 'http://devchatconnect.herokuapp.com/',
+    about: 'Still a work in progress full-stack application. Create a developer profile, create posts, comment on other developer posts to connect in the community',
+    image: DevChat,
+    github: 'https://github.com/tcovington1/devchat',
+    icons: [ mongodbIcon, expressIcon, reactIcon, nodejsIcon  ]
     
   },
   // {

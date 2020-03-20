@@ -7,6 +7,7 @@ import Contact from './components/shared/Contact';
 import NoMatch from './components/shared/NoMatch';
 import NavBar from './components/shared/nav/NavBar';
 import GlobalStyle from './styles/Global';
+import {ResumeBuild} from './components/shared/resume/ResumeBuild'
 
 // -------- MOBILE IMPORTS -------------
 
@@ -64,6 +65,7 @@ class App extends Component {
         {/* <Route path="/about" component={AboutMob} /> */}
         {/* <Route path="/projects" component={ProjectsMob} /> */}
         {/* <Route path="/contact" component={ContactMob} /> */}
+        {/* <Route path="/resume" component={ResumeBuild} /> */}
         <Route path="/resume" component={ResumeMob} />
         {/* <Route component={NoMatch} /> */}
       </Switch>

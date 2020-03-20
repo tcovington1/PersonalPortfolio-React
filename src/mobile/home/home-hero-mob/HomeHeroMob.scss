@@ -15,7 +15,7 @@
   height: 95vh;
   // min-height: 35rem;
   // padding: 15rem 0;
-  // margin: 10px;
+  margin: 10px;
   background: 
   linear-gradient(
     to right bottom,
@@ -26,6 +26,7 @@
       fade-out(black, 0.1),
       fade-out(black, 0.5)
       );
+  // background: linear-gradient(150deg, #fff 4%, #CBC9CF 40%, #CBC9CF calc(40% + 1px), #CBC9CF 50%, #A2A1A6 calc(50% + 1px), #A2A1A6 70%, #26A69A calc(70% + 1px), #26A69A 100%);
     ;
   background-position: center;
   background-repeat: no-repeat;

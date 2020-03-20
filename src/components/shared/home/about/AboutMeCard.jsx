@@ -19,7 +19,7 @@ const AboutMeCard = () => (
               {/* <div className="words"> */}
                 <p className='words-p'>I am currently learning all aspects of React.js including Gatsby.js and GraphQL.
               I also really enjoy learning back-end languages. During bootcamp we learned Ruby and Ruby on Rails with PostgreSQL
-              which makes building a full-stack application very easy. I'm also dabbling in Node.js, Express.js, and MongoDB to extend my stack knowledge and offering. What can I say, I love to learn!
+              which makes building a full-stack application quick to get started. I'm also dabbling in Node.js, Express.js, and MongoDB to extend my stack knowledge and offering. What can I say, I love to learn!
                 </p>
               </div>
     </>
