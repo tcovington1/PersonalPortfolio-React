@@ -30,12 +30,12 @@ import DevChat from '../../../assets/devchat.png';
 const projectData = [
   {
     id: 1,
-    name: 'Generations Humanitarian',
-    website: 'https://genhu.herokuapp.com',
-    about: 'During my part-time full-stack web dev bootcamp at DevPoint Labs I was assigned to GenHu with 4 other developers. Our goal was to rebuild GenHu.org, a local non-profit site. This site is built with a Ruby on Rails back-end giving our client access to an admin page. We then used React.js for the front-end to build reusable components. ',
-    image: GenHuImage,
-    github: 'https://github.com/harlanevans/genhu',
-    icons: [ reactIcon, languageRubyOnRails, postgresqlIcon, herokuIcon ]
+    name: 'DevChat',
+    website: 'http://devchatconnect.herokuapp.com/',
+    about: 'Still a work in progress full-stack application. Create a developer profile, create posts, comment on other developer posts to connect in the community',
+    image: DevChat,
+    github: 'https://github.com/tcovington1/devchat',
+    icons: [ reactIcon, nodejsIcon, mongodbIcon, herokuIcon  ]
     
   },
   {
@@ -50,12 +50,12 @@ const projectData = [
   },
   {
     id: 3,
-    name: 'DevChat',
-    website: 'http://devchatconnect.herokuapp.com/',
-    about: 'Still a work in progress full-stack application. Create a developer profile, create posts, comment on other developer posts to connect in the community',
-    image: DevChat,
-    github: 'https://github.com/tcovington1/devchat',
-    icons: [ mongodbIcon, expressIcon, reactIcon, nodejsIcon  ]
+    name: 'Generations Humanitarian',
+    website: 'https://genhu.herokuapp.com',
+    about: 'During my part-time full-stack web dev bootcamp at DevPoint Labs I was assigned to GenHu with 4 other developers. Our goal was to rebuild GenHu.org, a local non-profit site. This site is built with a Ruby on Rails back-end giving our client access to an admin page. We then used React.js for the front-end to build reusable components. ',
+    image: GenHuImage,
+    github: 'https://github.com/harlanevans/genhu',
+    icons: [ reactIcon, languageRubyOnRails, postgresqlIcon, herokuIcon ]
     
   },
   // {

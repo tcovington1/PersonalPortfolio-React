@@ -280,7 +280,11 @@
   // height: 55em;
   width: 43em;
   flex-wrap: wrap;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 
+  1rem 1rem 2rem rgba(0, 0, 0, 0.1), 
+  -1rem -1rem 2rem rgba(255, 255, 255, 0.5);
+
   transition: 0.3s;
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     flex-wrap: wrap;
