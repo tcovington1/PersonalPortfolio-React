@@ -7,6 +7,8 @@ import gatsbyIcon from '@iconify/icons-logos/gatsby';
 import graphqlIcon from '@iconify/icons-logos/graphql';
 import css3 from '@iconify/icons-logos/css-3';
 import sassIcon from '@iconify/icons-logos/sass';
+import mongodbIcon from '@iconify/icons-logos/mongodb';
+import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
 
 
 
@@ -49,12 +51,17 @@ const skills = [
   },
   {
     id: 7, 
+    language: "Node.js",
+    icon: nodejsIcon,
+  },
+  {
+    id: 8, 
     language: "Ruby On Rails",
     icon: languageRubyOnRails,
   },
 
   {
-    id: 8, 
+    id: 9, 
     language: "PostgreSQL",
     icon: postgresqlIcon,
 
