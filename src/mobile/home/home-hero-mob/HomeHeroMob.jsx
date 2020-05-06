@@ -19,9 +19,10 @@ const Hero = () => {
                 <Typed
                 className='typed-hero-mob'
                 strings={[
-                    "I'm a Front-End Developer",
-                    "I'm a Back-End Developer",
-                    "I'm a Full-Stack Developer"]}
+                    "Design",
+                    "Development",
+                    "User Experience",
+                    "Front-End Developer"]}
                     typeSpeed={40}
                     backSpeed={50}
                     // loop

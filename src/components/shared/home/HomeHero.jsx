@@ -21,9 +21,10 @@ const Hero = () => {
                 <Typed
                 className='typed-hero'
                 strings={[
-                    'I am a Front-End Developer',
-                    'I am a Back-End Developer',
-                    'I am a Full-Stack Developer']}
+                  "Design",
+                  "Development",
+                  "User Experience",
+                  "I am a Front-End Developer"]}
                     typeSpeed={40}
                     backSpeed={50}
                     // loop
