@@ -9,6 +9,8 @@ import graphqlIcon from '@iconify/icons-logos/graphql';
 import css3 from '@iconify/icons-logos/css-3';
 import netlifyIcon from '@iconify/icons-logos/netlify';
 import herokuIcon from '@iconify/icons-logos/heroku-icon';
+import sassIcon from '@iconify/icons-logos/sass';
+
 
 import mongodbIcon from '@iconify/icons-logos/mongodb';
 import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
@@ -22,7 +24,7 @@ import expressIcon from '@iconify/icons-logos/express';
 
 //images
 import cwtImage from '../../../assets/codewithtaylor.jpeg';
-import GenHuImage from '../../../assets/genhuscreenshot.jpeg';
+import TruckStopImage from '../../../assets/truckstop.jpeg';
 import DevChat from '../../../assets/devchat.png';
 // const genhuImage = {GenHuImage}
 // const codeWithTaylor = {cwtImage}
@@ -32,7 +34,7 @@ const projectData = [
     id: 1,
     name: 'DevChat',
     website: 'http://devchatconnect.herokuapp.com/',
-    about: 'Still a work in progress full-stack application. Create a developer profile, create posts, comment on other developer posts to connect in the community',
+    about: 'Still a work in progress full-stack application. DevChat makes it easy to connect with other developers by creating a profile, posting, and it allows the ability to comment and like other posts.',
     image: DevChat,
     github: 'https://github.com/tcovington1/devchat',
     icons: [ reactIcon, nodejsIcon, mongodbIcon, herokuIcon  ]
@@ -42,7 +44,7 @@ const projectData = [
     id: 2,
     name: 'Code With Taylor',
     website: 'https://codewithtaylor.com/',
-    about: 'This is my personal blog where I share my code journey, dad stories, and technical posts to help others learn. ',
+    about: 'This is my personal blog where I share my code journey, dad stories, and technical posts to help others learn. I use the Netlify CMS to manage my blog posts.  ',
     image: cwtImage,
     github: 'https://github.com/tcovington1/CodeWithTaylor-blog',
     icons: [ gatsbyIcon, graphqlIcon, netlifyIcon ]
@@ -50,12 +52,12 @@ const projectData = [
   },
   {
     id: 3,
-    name: 'Generations Humanitarian',
-    website: 'https://genhu.herokuapp.com',
-    about: 'During my part-time full-stack web dev bootcamp at DevPoint Labs I was assigned to GenHu with 4 other developers. Our goal was to rebuild GenHu.org, a local non-profit site. This site is built with a Ruby on Rails back-end giving our client access to an admin page. We then used React.js for the front-end to build reusable components. ',
-    image: GenHuImage,
-    github: 'https://github.com/harlanevans/genhu',
-    icons: [ reactIcon, languageRubyOnRails, postgresqlIcon, herokuIcon ]
+    name: 'The Truck Stop',
+    website: 'https://thetruckstop.netlify.app/',
+    about: 'Mobile businesses need help getting their business online. The Truck Stop solves this problem by offering design, development, SEO, analytics, and social media management.',
+    image: TruckStopImage,
+    github: 'https://github.com/tcovington1/truck-stop',
+    icons: [ reactIcon, sassIcon, netlifyIcon ]
     
   },
   // {
