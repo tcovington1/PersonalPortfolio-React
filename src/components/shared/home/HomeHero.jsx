@@ -24,7 +24,7 @@ const Hero = () => {
                   "Design",
                   "Development",
                   "User Experience",
-                  "I am a Front-End Developer"]}
+                  "Front-End Developer"]}
                     typeSpeed={40}
                     backSpeed={50}
                     // loop
