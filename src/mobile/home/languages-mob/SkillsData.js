@@ -9,6 +9,7 @@ import css3 from '@iconify/icons-logos/css-3';
 import sassIcon from '@iconify/icons-logos/sass';
 import mongodbIcon from '@iconify/icons-logos/mongodb';
 import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
+import wordpressIcon from '@iconify/icons-mdi/wordpress';
 
 
 
@@ -64,6 +65,12 @@ const skills = [
     id: 9, 
     language: "PostgreSQL",
     icon: postgresqlIcon,
+
+  },
+  {
+    id: 10, 
+    language: "WordPress",
+    icon: wordpressIcon,
 
   },
  
