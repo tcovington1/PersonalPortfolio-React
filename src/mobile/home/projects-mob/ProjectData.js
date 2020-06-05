@@ -33,7 +33,7 @@ const projectData = [
   {
     id: 1,
     name: 'The Truck Stop',
-    website: 'https://thetruckstop.netlify.app/',
+    website: 'https://truckstopdesign.netlify.app/',
     about: 'Mobile businesses need help getting their business online. The Truck Stop solves this problem by offering design, development, SEO, analytics, and social media management.',
     image: TruckStopImage,
     github: 'https://github.com/tcovington1/truck-stop',
