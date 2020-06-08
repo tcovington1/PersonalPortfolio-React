@@ -14,8 +14,7 @@ const AboutMeCardMob = () => (
         <CertPic />
         <br></br>
       <div className="words-mob">
-        <p className='words-p'>I am currently learning the <strong>MERN</strong> stack which includes <strong>React.js, MongoDB, Node.js, and Express.js</strong>. While coding my projects, I'm also learning how to write <strong>tests</strong> using Jest.
-          What can I say, I love to learn!
+        <p className='words-p'>I am currently learning how to create custom themes in WordPress, implementing sales funnels, and all aspects of online marketing.
         </p>
       </div>
     </>
