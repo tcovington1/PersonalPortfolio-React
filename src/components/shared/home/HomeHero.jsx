@@ -4,6 +4,8 @@ import Fade from 'react-reveal';
 import 'react-typed/dist/animatedCursor.css'
 import Typed from 'react-typed';
 import './Home.scss';
+import {Button} from '../../Button'
+import {Link} from 'react-router-dom'
 
 
 const Hero = () => {
@@ -31,6 +33,10 @@ const Hero = () => {
                     >
                 </Typed>
             </div>
+            {/* <div className='contact-btn-div' style={{marginTop: '4rem'}}>
+          <Link rel="stylesheet" href="/contact"><Button buttonStyle='btn-primary-solid' buttonSize="btn-med" >Contact Me</Button></Link>
+        </div> */}
+
         </Fade>
     </div>
   </div>

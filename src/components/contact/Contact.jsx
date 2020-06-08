@@ -26,7 +26,7 @@ render() {
   const { fullName , email, subject, message } = this.state;
   return(
   
-    <div className="contact-cont">
+    <div className="contact-cont" id='contact'> 
       <form className='contact_form' action="https://formspree.io/tcovingtondev@gmail.com"
         method="POST">
         <div className="contact-heading">
