@@ -32,6 +32,16 @@ import DevChat from '../../../assets/devchat.png';
 const projectData = [
   {
     id: 1,
+    name: 'The Truck Stop',
+    website: 'https://truckstopdesign.netlify.app/',
+    about: 'Mobile businesses need help getting their business online. The Truck Stop solves this problem by offering design, development, SEO, analytics, and social media management.',
+    image: TruckStopImage,
+    github: 'https://github.com/tcovington1/truck-stop',
+    icons: [ reactIcon, sassIcon, netlifyIcon ]
+    
+  },
+  {
+    id: 2,
     name: 'DevChat',
     website: 'http://devchatconnect.herokuapp.com/',
     about: 'Still a work in progress full-stack application. DevChat makes it easy to connect with other developers by creating a profile, posting, and it allows the ability to comment and like other posts.',
@@ -41,7 +51,7 @@ const projectData = [
     
   },
   {
-    id: 2,
+    id: 3,
     name: 'Code With Taylor',
     website: 'https://codewithtaylor.com/',
     about: 'This is my personal blog where I share my code journey, dad stories, and technical posts to help others learn. I use the Netlify CMS to manage my blog posts.  ',
@@ -50,16 +60,7 @@ const projectData = [
     icons: [ gatsbyIcon, graphqlIcon, netlifyIcon ]
     
   },
-  {
-    id: 3,
-    name: 'The Truck Stop',
-    website: 'https://thetruckstop.netlify.app/',
-    about: 'Mobile businesses need help getting their business online. The Truck Stop solves this problem by offering design, development, SEO, analytics, and social media management.',
-    image: TruckStopImage,
-    github: 'https://github.com/tcovington1/truck-stop',
-    icons: [ reactIcon, sassIcon, netlifyIcon ]
-    
-  },
+
   // {
   //   id: 2,
   //   name: 'Code With Taylor',

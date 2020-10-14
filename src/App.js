@@ -18,6 +18,8 @@ import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import ReactGA from 'react-ga';
+
 
 library.add(fab, fas);
 
@@ -36,6 +38,8 @@ class App extends Component {
 
   componentDidMount = () => {
     window.addEventListener("resize", this.handleWindowSizeChange);
+    ReactGA.initialize('UA-166856495-1');
+    ReactGA.pageview('/');  
   };
 
   componentWillUnmount() {
