@@ -10,13 +10,6 @@ import sassIcon from '@iconify/icons-logos/sass';
 import mongodbIcon from '@iconify/icons-logos/mongodb';
 import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
 
-
-
-
-
-
-
-
 const skills = [
   {
     id: 1, 
