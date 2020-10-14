@@ -11,13 +11,6 @@ import mongodbIcon from '@iconify/icons-logos/mongodb';
 import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
 import wordpressIcon from '@iconify/icons-mdi/wordpress';
 
-
-
-
-
-
-
-
 const skills = [
   {
     id: 1, 

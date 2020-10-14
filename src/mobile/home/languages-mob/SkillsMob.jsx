@@ -1,7 +1,7 @@
 import React from 'react';
-import postgresqlIcon from '@iconify/icons-logos/postgresql';
+// import postgresqlIcon from '@iconify/icons-logos/postgresql';
 import { Icon, InlineIcon } from '@iconify/react';
-import html5Icon from '@iconify/icons-fa/html5';
+// import html5Icon from '@iconify/icons-fa/html5';
 
 // import { Icon, InlineIcon } from '@iconify/react';
 
